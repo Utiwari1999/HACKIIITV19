@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="askquestion.css">
+    <title>Ask a Question</title>
+</head>
+<body>
+  <div id="abc">
+      <nav>
+          <ul>
+            <li><a href="1.html">Home</a></li>
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Join a Community</a>
+              <div class="dropdown-content">
+                <a href="cancer.html">Cancer</a>
+                <a href="diabetes.html">Diabetes</a>
+                <a href="aids.html">AIDS</a>
+              </div>
+            </li>
+            <li><a href="consult.html">Consult A Doctor</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="signin.html">Sign In</a></li>
+            <li class="dropdown1">
+              <a href="javascript:void(0)" class="dropbtn1">Sign Up</a>
+              <div class="dropdown-content1">
+                <a href="student.html">Patient</a>
+                <a href="doctor.html">Doctor</a>
+              </div>
+            </li>
+          </ul>
+      </nav>
+  </div>
+    <div class="abc">
+        <div class="container">
+            <br><br><br><br>
+            <h1><b>Ask your Question</b></h1>
+            <br><br><br><br><br>
+            <div class="row">
+                <div class="col-5">
+                        <img src="profile.png" >
+                </div>
+                <div class="col-6">
+                        <label for="d-select">Select the disease you have:</label>
+                        <select id="d-select">
+                            <option value="">--Choose an option--</option>
+                            <option value="Diabetes">Diabetes</option>
+                            <option value="AIDS">AIDS</option>
+                            <option value="Cancer">Cancer</option>
+                        </select>
+                        <br><br>
+                        Type your question here:
+                        <br><br>
+                        <textarea name="message" rows="3" cols="50" placeholder="Type here">
+                        </textarea>
+                        <br><br>
+                        <button type="button" class="btn btn-secondary">Submit</button>
+                </div>
+            </div>
+
+    </div>
+</body>
+</html>
